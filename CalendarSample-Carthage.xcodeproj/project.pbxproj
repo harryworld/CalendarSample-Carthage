@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1D19C301CC5326C00068324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D19C2F1CC5326C00068324 /* AppDelegate.swift */; };
+		D1D19C321CC5326C00068324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D19C311CC5326C00068324 /* ViewController.swift */; };
+		D1D19C341CC5326C00068324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D19C331CC5326C00068324 /* Assets.xcassets */; };
+		D1D19C371CC5326C00068324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1D19C351CC5326C00068324 /* Main.storyboard */; };
+		D1D19C421CC5326C00068324 /* CalendarSample_CarthageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D19C411CC5326C00068324 /* CalendarSample_CarthageTests.swift */; };
+		D1D19C4D1CC5326D00068324 /* CalendarSample_CarthageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D19C4C1CC5326D00068324 /* CalendarSample_CarthageUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1D19C3E1CC5326C00068324 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1D19C241CC5326C00068324 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1D19C2B1CC5326C00068324;
+			remoteInfo = "CalendarSample-Carthage";
+		};
+		D1D19C491CC5326D00068324 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1D19C241CC5326C00068324 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1D19C2B1CC5326C00068324;
+			remoteInfo = "CalendarSample-Carthage";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1D19C2C1CC5326C00068324 /* CalendarSample-Carthage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalendarSample-Carthage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1D19C2F1CC5326C00068324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1D19C311CC5326C00068324 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1D19C331CC5326C00068324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1D19C361CC5326C00068324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1D19C381CC5326C00068324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1D19C3D1CC5326C00068324 /* CalendarSample-CarthageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CalendarSample-CarthageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1D19C411CC5326C00068324 /* CalendarSample_CarthageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSample_CarthageTests.swift; sourceTree = "<group>"; };
+		D1D19C431CC5326C00068324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1D19C481CC5326D00068324 /* CalendarSample-CarthageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CalendarSample-CarthageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1D19C4C1CC5326D00068324 /* CalendarSample_CarthageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSample_CarthageUITests.swift; sourceTree = "<group>"; };
+		D1D19C4E1CC5326D00068324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1D19C291CC5326C00068324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D19C3A1CC5326C00068324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D19C451CC5326D00068324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1D19C231CC5326C00068324 = {
+			isa = PBXGroup;
+			children = (
+				D1D19C2E1CC5326C00068324 /* CalendarSample-Carthage */,
+				D1D19C401CC5326C00068324 /* CalendarSample-CarthageTests */,
+				D1D19C4B1CC5326D00068324 /* CalendarSample-CarthageUITests */,
+				D1D19C2D1CC5326C00068324 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1D19C2D1CC5326C00068324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1D19C2C1CC5326C00068324 /* CalendarSample-Carthage.app */,
+				D1D19C3D1CC5326C00068324 /* CalendarSample-CarthageTests.xctest */,
+				D1D19C481CC5326D00068324 /* CalendarSample-CarthageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1D19C2E1CC5326C00068324 /* CalendarSample-Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				D1D19C2F1CC5326C00068324 /* AppDelegate.swift */,
+				D1D19C311CC5326C00068324 /* ViewController.swift */,
+				D1D19C331CC5326C00068324 /* Assets.xcassets */,
+				D1D19C351CC5326C00068324 /* Main.storyboard */,
+				D1D19C381CC5326C00068324 /* Info.plist */,
+			);
+			path = "CalendarSample-Carthage";
+			sourceTree = "<group>";
+		};
+		D1D19C401CC5326C00068324 /* CalendarSample-CarthageTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1D19C411CC5326C00068324 /* CalendarSample_CarthageTests.swift */,
+				D1D19C431CC5326C00068324 /* Info.plist */,
+			);
+			path = "CalendarSample-CarthageTests";
+			sourceTree = "<group>";
+		};
+		D1D19C4B1CC5326D00068324 /* CalendarSample-CarthageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1D19C4C1CC5326D00068324 /* CalendarSample_CarthageUITests.swift */,
+				D1D19C4E1CC5326D00068324 /* Info.plist */,
+			);
+			path = "CalendarSample-CarthageUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1D19C2B1CC5326C00068324 /* CalendarSample-Carthage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1D19C511CC5326D00068324 /* Build configuration list for PBXNativeTarget "CalendarSample-Carthage" */;
+			buildPhases = (
+				D1D19C281CC5326C00068324 /* Sources */,
+				D1D19C291CC5326C00068324 /* Frameworks */,
+				D1D19C2A1CC5326C00068324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CalendarSample-Carthage";
+			productName = "CalendarSample-Carthage";
+			productReference = D1D19C2C1CC5326C00068324 /* CalendarSample-Carthage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1D19C3C1CC5326C00068324 /* CalendarSample-CarthageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1D19C541CC5326D00068324 /* Build configuration list for PBXNativeTarget "CalendarSample-CarthageTests" */;
+			buildPhases = (
+				D1D19C391CC5326C00068324 /* Sources */,
+				D1D19C3A1CC5326C00068324 /* Frameworks */,
+				D1D19C3B1CC5326C00068324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1D19C3F1CC5326C00068324 /* PBXTargetDependency */,
+			);
+			name = "CalendarSample-CarthageTests";
+			productName = "CalendarSample-CarthageTests";
+			productReference = D1D19C3D1CC5326C00068324 /* CalendarSample-CarthageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1D19C471CC5326D00068324 /* CalendarSample-CarthageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1D19C571CC5326D00068324 /* Build configuration list for PBXNativeTarget "CalendarSample-CarthageUITests" */;
+			buildPhases = (
+				D1D19C441CC5326D00068324 /* Sources */,
+				D1D19C451CC5326D00068324 /* Frameworks */,
+				D1D19C461CC5326D00068324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1D19C4A1CC5326D00068324 /* PBXTargetDependency */,
+			);
+			name = "CalendarSample-CarthageUITests";
+			productName = "CalendarSample-CarthageUITests";
+			productReference = D1D19C481CC5326D00068324 /* CalendarSample-CarthageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1D19C241CC5326C00068324 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "STAY REAL LIMITED";
+				TargetAttributes = {
+					D1D19C2B1CC5326C00068324 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D1D19C3C1CC5326C00068324 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D1D19C2B1CC5326C00068324;
+					};
+					D1D19C471CC5326D00068324 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D1D19C2B1CC5326C00068324;
+					};
+				};
+			};
+			buildConfigurationList = D1D19C271CC5326C00068324 /* Build configuration list for PBXProject "CalendarSample-Carthage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1D19C231CC5326C00068324;
+			productRefGroup = D1D19C2D1CC5326C00068324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1D19C2B1CC5326C00068324 /* CalendarSample-Carthage */,
+				D1D19C3C1CC5326C00068324 /* CalendarSample-CarthageTests */,
+				D1D19C471CC5326D00068324 /* CalendarSample-CarthageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1D19C2A1CC5326C00068324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D19C341CC5326C00068324 /* Assets.xcassets in Resources */,
+				D1D19C371CC5326C00068324 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D19C3B1CC5326C00068324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D19C461CC5326D00068324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1D19C281CC5326C00068324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D19C321CC5326C00068324 /* ViewController.swift in Sources */,
+				D1D19C301CC5326C00068324 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D19C391CC5326C00068324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D19C421CC5326C00068324 /* CalendarSample_CarthageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D19C441CC5326D00068324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D19C4D1CC5326D00068324 /* CalendarSample_CarthageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1D19C3F1CC5326C00068324 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1D19C2B1CC5326C00068324 /* CalendarSample-Carthage */;
+			targetProxy = D1D19C3E1CC5326C00068324 /* PBXContainerItemProxy */;
+		};
+		D1D19C4A1CC5326D00068324 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1D19C2B1CC5326C00068324 /* CalendarSample-Carthage */;
+			targetProxy = D1D19C491CC5326D00068324 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1D19C351CC5326C00068324 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1D19C361CC5326C00068324 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1D19C4F1CC5326D00068324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1D19C501CC5326D00068324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D1D19C521CC5326D00068324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CalendarSample-Carthage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stayrealhk.CalendarSample-Carthage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D1D19C531CC5326D00068324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CalendarSample-Carthage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stayrealhk.CalendarSample-Carthage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D1D19C551CC5326D00068324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CalendarSample-CarthageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stayrealhk.CalendarSample-CarthageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalendarSample-Carthage.app/Contents/MacOS/CalendarSample-Carthage";
+			};
+			name = Debug;
+		};
+		D1D19C561CC5326D00068324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CalendarSample-CarthageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stayrealhk.CalendarSample-CarthageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalendarSample-Carthage.app/Contents/MacOS/CalendarSample-Carthage";
+			};
+			name = Release;
+		};
+		D1D19C581CC5326D00068324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CalendarSample-CarthageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stayrealhk.CalendarSample-CarthageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CalendarSample-Carthage";
+			};
+			name = Debug;
+		};
+		D1D19C591CC5326D00068324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CalendarSample-CarthageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stayrealhk.CalendarSample-CarthageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CalendarSample-Carthage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1D19C271CC5326C00068324 /* Build configuration list for PBXProject "CalendarSample-Carthage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D19C4F1CC5326D00068324 /* Debug */,
+				D1D19C501CC5326D00068324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1D19C511CC5326D00068324 /* Build configuration list for PBXNativeTarget "CalendarSample-Carthage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D19C521CC5326D00068324 /* Debug */,
+				D1D19C531CC5326D00068324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D1D19C541CC5326D00068324 /* Build configuration list for PBXNativeTarget "CalendarSample-CarthageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D19C551CC5326D00068324 /* Debug */,
+				D1D19C561CC5326D00068324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D1D19C571CC5326D00068324 /* Build configuration list for PBXNativeTarget "CalendarSample-CarthageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D19C581CC5326D00068324 /* Debug */,
+				D1D19C591CC5326D00068324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1D19C241CC5326C00068324 /* Project object */;
+}
