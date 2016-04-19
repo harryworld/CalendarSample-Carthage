@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1D026421CC67A6100FB09B6 /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D026411CC67A6100FB09B6 /* SwiftDate.framework */; };
+		D1D026441CC67A7000FB09B6 /* SwiftDate.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D1D026411CC67A6100FB09B6 /* SwiftDate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D1D19C301CC5326C00068324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D19C2F1CC5326C00068324 /* AppDelegate.swift */; };
 		D1D19C321CC5326C00068324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D19C311CC5326C00068324 /* ViewController.swift */; };
 		D1D19C341CC5326C00068324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D19C331CC5326C00068324 /* Assets.xcassets */; };
@@ -32,7 +34,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D1D026431CC67A6800FB09B6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D1D026441CC67A7000FB09B6 /* SwiftDate.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D1D026411CC67A6100FB09B6 /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/Mac/SwiftDate.framework; sourceTree = "<group>"; };
 		D1D19C2C1CC5326C00068324 /* CalendarSample-Carthage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalendarSample-Carthage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D19C2F1CC5326C00068324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1D19C311CC5326C00068324 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1D026421CC67A6100FB09B6 /* SwiftDate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +92,7 @@
 		D1D19C231CC5326C00068324 = {
 			isa = PBXGroup;
 			children = (
+				D1D026411CC67A6100FB09B6 /* SwiftDate.framework */,
 				D1D19C2E1CC5326C00068324 /* CalendarSample-Carthage */,
 				D1D19C401CC5326C00068324 /* CalendarSample-CarthageTests */,
 				D1D19C4B1CC5326D00068324 /* CalendarSample-CarthageUITests */,
@@ -132,6 +150,7 @@
 				D1D19C281CC5326C00068324 /* Sources */,
 				D1D19C291CC5326C00068324 /* Frameworks */,
 				D1D19C2A1CC5326C00068324 /* Resources */,
+				D1D026431CC67A6800FB09B6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -387,6 +406,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = "CalendarSample-Carthage/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stayrealhk.CalendarSample-Carthage";
@@ -399,6 +422,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = "CalendarSample-Carthage/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stayrealhk.CalendarSample-Carthage";
@@ -475,6 +502,7 @@
 				D1D19C531CC5326D00068324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1D19C541CC5326D00068324 /* Build configuration list for PBXNativeTarget "CalendarSample-CarthageTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +511,7 @@
 				D1D19C561CC5326D00068324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1D19C571CC5326D00068324 /* Build configuration list for PBXNativeTarget "CalendarSample-CarthageUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +520,7 @@
 				D1D19C591CC5326D00068324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
