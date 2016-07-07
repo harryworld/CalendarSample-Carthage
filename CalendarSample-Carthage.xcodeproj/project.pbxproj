@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D14DCB071D2EACA2002060AB /* HNCalendarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14DCB061D2EACA2002060AB /* HNCalendarView.framework */; };
+		D14DCB081D2EACA2002060AB /* HNCalendarView.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D14DCB061D2EACA2002060AB /* HNCalendarView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D14DCB0C1D2EACC1002060AB /* HNCalendarView.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = D14DCB0A1D2EACC1002060AB /* HNCalendarView.framework.dSYM */; };
+		D14DCB0D1D2EACC1002060AB /* SwiftDate.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = D14DCB0B1D2EACC1002060AB /* SwiftDate.framework.dSYM */; };
 		D1D026421CC67A6100FB09B6 /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D026411CC67A6100FB09B6 /* SwiftDate.framework */; };
 		D1D026441CC67A7000FB09B6 /* SwiftDate.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D1D026411CC67A6100FB09B6 /* SwiftDate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D1D19C301CC5326C00068324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D19C2F1CC5326C00068324 /* AppDelegate.swift */; };
@@ -35,6 +39,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		D14DCB091D2EACB3002060AB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				D14DCB0C1D2EACC1002060AB /* HNCalendarView.framework.dSYM in CopyFiles */,
+				D14DCB0D1D2EACC1002060AB /* SwiftDate.framework.dSYM in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D1D026431CC67A6800FB09B6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -42,12 +57,16 @@
 			dstSubfolderSpec = 10;
 			files = (
 				D1D026441CC67A7000FB09B6 /* SwiftDate.framework in CopyFiles */,
+				D14DCB081D2EACA2002060AB /* HNCalendarView.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D14DCB061D2EACA2002060AB /* HNCalendarView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HNCalendarView.framework; path = Carthage/Build/Mac/HNCalendarView.framework; sourceTree = "<group>"; };
+		D14DCB0A1D2EACC1002060AB /* HNCalendarView.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = HNCalendarView.framework.dSYM; path = Carthage/Build/Mac/HNCalendarView.framework.dSYM; sourceTree = "<group>"; };
+		D14DCB0B1D2EACC1002060AB /* SwiftDate.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SwiftDate.framework.dSYM; path = Carthage/Build/Mac/SwiftDate.framework.dSYM; sourceTree = "<group>"; };
 		D1D026411CC67A6100FB09B6 /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/Mac/SwiftDate.framework; sourceTree = "<group>"; };
 		D1D19C2C1CC5326C00068324 /* CalendarSample-Carthage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalendarSample-Carthage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D19C2F1CC5326C00068324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +88,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1D026421CC67A6100FB09B6 /* SwiftDate.framework in Frameworks */,
+				D14DCB071D2EACA2002060AB /* HNCalendarView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +112,9 @@
 		D1D19C231CC5326C00068324 = {
 			isa = PBXGroup;
 			children = (
+				D14DCB0A1D2EACC1002060AB /* HNCalendarView.framework.dSYM */,
+				D14DCB0B1D2EACC1002060AB /* SwiftDate.framework.dSYM */,
+				D14DCB061D2EACA2002060AB /* HNCalendarView.framework */,
 				D1D026411CC67A6100FB09B6 /* SwiftDate.framework */,
 				D1D19C2E1CC5326C00068324 /* CalendarSample-Carthage */,
 				D1D19C401CC5326C00068324 /* CalendarSample-CarthageTests */,
@@ -151,6 +174,7 @@
 				D1D19C291CC5326C00068324 /* Frameworks */,
 				D1D19C2A1CC5326C00068324 /* Resources */,
 				D1D026431CC67A6800FB09B6 /* CopyFiles */,
+				D14DCB091D2EACB3002060AB /* CopyFiles */,
 			);
 			buildRules = (
 			);
